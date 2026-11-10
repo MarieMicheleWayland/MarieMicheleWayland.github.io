@@ -1,63 +1,99 @@
 body {
-  background-color: powderblue;
+  background-color: rgb(238, 237, 213);
 }
 h1 {
-  color: blue;
+  color: rgb(14, 61, 5);
   Font-size: 30px;
   text-align: center;
   text-decoration:underline;
   text-decoration-thickness: 5px;
-  text-decoration-style:dashed;
+  text-decoration-style:double;
   text-transform:capitalize;
   word-spacing: 5px;
-  text-shadow: 2px,2px,5px,white;
+  text-shadow: 5px,5px,5px,rgb(189, 180, 180);
   font-family:"Courier New",Arial,monospace;
    font-weight: bold;
 }
 h2 {
-  color:white;
+  color:rgb(0, 0, 0);
+  text-align: center;
   font-weight: bold;
 }
+h3 {
+  color: rgb(0, 0, 0);
+display: block;
+  text-align: left;
+  font-weight: bold;
+  text-transform: capitalize;
+  font-family:'courier new', monospace;
+  margin-left: 15%;
+  margin-right: 15%;
+}
 p {
-  color: purple;
+  color: rgb(50, 44, 50);
   font-size: 16px;
   text-align: justify;
   text-align-last:left;
-  background-color: white;
-  background-opacity:50%;
+  background-color: rgba(255, 255, 255, 0.5);
   text-indent:30px;
-  letter-spacing: 2px;
-  line-height: 5 px;
-  word-spacing: 3px;
+  letter-spacing: .5px;
+  line-height: 2,5px;
+  word-spacing: 1,5px;
   white-space: normal;
   font-family:monospace;
+  display: block;
+  margin-left: 15%;
+  margin-right: 15%;
 }
-@media (max-width: 576px) { body {
+ul {
+  color: rgb(50, 44, 50);
+  font-size: 16px;
+  text-align: justify;
+  text-align-last:left;
+  background-color: rgba(255, 255, 255, 0.5);
+  text-indent:30px;
+  letter-spacing: .5px;
+  line-height: 2,5px;
+  word-spacing: 1,5px;
+  white-space: normal;
+  font-family:monospace;
+  display: block;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+/* @media (max-width: 576px) {
+  body {
  background-image: url("Images/Frankie.webp");
   background-size:cover;
-}
+} */
 a{
+  font-size: 20px;
+  font-family: monospace;
+  font-weight: bold;
+  font-style: italic;
   color: rgb(12,155,114);
-  background-color: white;
-  padding: 25px 25px;
-    margin-left: 550px
-  text-decoration:underline;
+  background-color: rgba(255, 66, 230, 0.694);
+  display: block;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 12px 20px;
+  text-decoration: none;
+  border-radius: 6px;
   }
-a:hover {
-  color: pink);
-  background-color: white;
-    padding: 25px 25px;
-  margin-left: 550px
-  text-decoration:underline;
+a:hover{
+  background-color: rgb(229, 191, 224);
+  display: block;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 12px 20px;
+  text-decoration: none;
+  border-radius: 6px;
   }
 a:visited{
-  color: grey;
-  background-color: white;
-    padding: 25px 25px;
-    margin-left: 550px
-  text-align:center;
-  text-decoration:underline;
- font-size:5rem;
+
+  }
   /* this is a comment
   */
   }
