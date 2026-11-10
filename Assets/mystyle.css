@@ -28,4 +28,5 @@ p {
 }
 body {
  background-image: url("Images/Frankie.webp");
+  background-size:cover;
 }
