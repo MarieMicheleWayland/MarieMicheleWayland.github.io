@@ -39,17 +39,19 @@ body {
 a{
   color: rgb(12,155,114);
   background-color: white;
+  padding: 50px 50px;
   text-decoration:underline;
   }
 a:hover {
   color: pink);
   background-color: white;
+  padding: 50px 50px;
   text-decoration:underline;
   }
 a:visited{
   color: yellow;
   background-color: white;
-    padding: 14px 25px;
+    padding: 50px 50px;
   text-align:center;
   text-decoration:underline;
  font-size:5rem;
