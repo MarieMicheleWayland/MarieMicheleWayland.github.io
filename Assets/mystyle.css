@@ -39,5 +39,12 @@ body {
 a{
   color: rgb(12,155,114);
   background-color: white;
-  
+  text-decoration:underline;
+ 
+  }
+a:hover {
+  color: pink);
+  background-color: white;
+  text-decoration:underline;
+ 
   }
