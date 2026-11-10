@@ -21,6 +21,7 @@ p {
   letter-spacing: 5px;
   line-height: 5 px;
   word-spacing: 3px;
+  white-space: normal;
 }
 body {
  background-image: url("Images/Frankie.webp");
