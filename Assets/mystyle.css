@@ -40,21 +40,21 @@ a{
   color: rgb(12,155,114);
   background-color: white;
   padding: 25px 25px;
-    margin-left: 150px
+    margin-left: 550px
   text-decoration:underline;
   }
 a:hover {
   color: pink);
   background-color: white;
     padding: 25px 25px;
-  margin-left: 150px
+  margin-left: 550px
   text-decoration:underline;
   }
 a:visited{
   color: grey;
   background-color: white;
     padding: 25px 25px;
-    margin-left: 150px
+    margin-left: 550px
   text-align:center;
   text-decoration:underline;
  font-size:5rem;
