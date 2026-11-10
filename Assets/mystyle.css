@@ -16,6 +16,10 @@ p {
   text-align: justify;
   text-align-last:left;
   background-color: white;
+  text-indent:normal;
+  letter-spacing: 5px;
+  line-height: 5 px;
+  word-spacing: 3px;
 }
 body {
  background-image: url("Images/Frankie.webp");
