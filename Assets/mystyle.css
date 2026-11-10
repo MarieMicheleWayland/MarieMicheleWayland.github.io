@@ -5,6 +5,8 @@ h1 {
   color: blue;
   Font-size: 30px;
   text-align: center;
+  text-decoration-line;
+  text-decoration-thickness: 5px;
 }
 p {
   color: purple;
