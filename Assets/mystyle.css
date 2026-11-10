@@ -11,7 +11,7 @@ h1 {
   text-transform:capitalize;
   word-spacing: 5px;
   text-shadow: 2px,2px,5px,white;
-  text-family:"Courier New",Arial,monospace;
+  font-family:"Courier New",Arial,monospace;
 }
 p {
   color: purple;
