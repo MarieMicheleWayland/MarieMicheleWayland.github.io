@@ -10,7 +10,7 @@ h1 {
   text-decoration-style:dashed;
   text-transform:capitalize;
   word-spacing: 5px;
-  text-shadow: 2px,2px,5px,black;
+  text-shadow: 2px,2px,5px,white;
 }
 p {
   color: purple;
