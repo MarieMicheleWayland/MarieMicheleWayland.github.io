@@ -7,6 +7,7 @@ h1 {
   text-align: center;
   text-decoration:underline;
   text-decoration-thickness: 5px;
+  text-decoration-style:dashed;
 }
 p {
   color: purple;
