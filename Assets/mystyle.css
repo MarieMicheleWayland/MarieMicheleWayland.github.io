@@ -12,9 +12,11 @@ h1 {
   word-spacing: 5px;
   text-shadow: 2px,2px,5px,white;
   font-family:"Courier New",Arial,monospace;
+   font-weight: bold;
 }
 h2 {
   color:white;
+  font-weight: bold;
 font-family:<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Redaction+35:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
