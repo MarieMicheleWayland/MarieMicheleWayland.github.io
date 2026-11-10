@@ -49,6 +49,8 @@ a:hover {
 a:visited{
   color: yellow;
   background-color: white;
+    padding: 14px 25px;
+  text-align:center;
   text-decoration:underline;
  
   }
