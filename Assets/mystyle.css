@@ -36,3 +36,8 @@ body {
  background-image: url("Images/Frankie.webp");
   background-size:cover;
 }
+a{
+  color: rgb(12,155,114);
+  background-color: white;
+  
+  }
