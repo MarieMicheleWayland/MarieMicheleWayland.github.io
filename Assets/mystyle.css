@@ -51,7 +51,7 @@ a:hover {
   text-decoration:underline;
   }
 a:visited{
-  color: yellow;
+  color: grey;
   background-color: white;
     padding: 25px 25px;
     margin: 150px
