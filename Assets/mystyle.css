@@ -19,6 +19,7 @@ p {
   text-align: justify;
   text-align-last:left;
   background-color: white;
+  background-opacity:50%;
   text-indent:30px;
   letter-spacing: 2px;
   line-height: 5 px;
