@@ -32,7 +32,7 @@ p {
   white-space: normal;
   font-family:monospace;
 }
-body {
+@media (max-width: 576px) { body {
  background-image: url("Images/Frankie.webp");
   background-size:cover;
 }
