@@ -50,7 +50,7 @@ mystyle_bootstrap.css â€” Bootstrap 5.3 Website Theme Overrides
   --site-link-hover: #451ccc;; /* EDIT: hyperlinks on mouse hover */
 
   /* Fonts and sizing */
-  --site-font: system-ui, -apple-system, "courier new", monoscript; /* EDIT: body text font stack, form and Bootstrap body font */
+  --site-font: system-ui, -apple-system, "courier new", monospace; /* EDIT: body text font stack, form and Bootstrap body font */
   --site-heading-font: var(--site-font); /* EDIT: font for headings h1â€“h6 */
   --site-base-size: 1rem; /* EDIT: body text size; rem-based sizes depend on root font size */
   --site-line-height: 1.6; /* EDIT: body paragraph line spacing */
