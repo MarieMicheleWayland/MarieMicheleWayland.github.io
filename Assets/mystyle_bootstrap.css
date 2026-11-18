@@ -18,43 +18,43 @@ mystyle_bootstrap.css â€” Bootstrap 5.3 Website Theme Overrides
    RGB channels are comma-separated and must match the corresponding hex colour.
    ======================================================================== */
 :root{
-  /* Brand palette */
-  --site-primary: #64c142; /* EDIT: main brand colour; primary buttons, coloured links, backgrounds and component accents */
-  --site-primary-hover: #59359a; /* EDIT: primary hover colour; hovered buttons and links */
+  /* Brand palette i did these */
+  --site-primary: #FCAD0F; /* EDIT: main brand colour; primary buttons, coloured links, backgrounds and component accents */
+  --site-primary-hover: #234E74; /* EDIT: primary hover colour; hovered buttons and links */
   --site-primary-active: #4b2b83; /* EDIT: pressed/selected primary button colour */
-  --site-primary-rgb: 100, 193, 66; /* EDIT: RGB channels matching --site-primary; opacity backgrounds, borders and focus effects */
-  --site-secondary: #64748b; /* EDIT: secondary brand colour; secondary buttons and utility classes */
-  --site-secondary-hover: #475569; /* EDIT: hover state for secondary buttons and links */
+  --site-primary-rgb: 252, 173, 15; /* EDIT: RGB channels matching --site-primary; opacity backgrounds, borders and focus effects */
+  --site-secondary: #234E74; /* EDIT: secondary brand colour; secondary buttons and utility classes */
+  --site-secondary-hover: #9C6D2D; /* EDIT: hover state for secondary buttons and links */
   --site-secondary-active: #334155; /* EDIT: pressed/selected secondary buttons */
-  --site-secondary-rgb: 100, 116, 139; /* EDIT: RGB channels matching --site-secondary; translucent secondary utilities */
+  --site-secondary-rgb: 35, 78, 116; /* EDIT: RGB channels matching --site-secondary; translucent secondary utilities */
 
   /* Semantic colors â€” adjust to match your brand */
-  --site-success: #198754; /* EDIT: success/confirmation status colour */
-  --site-success-rgb: 25, 135, 84; /* EDIT: RGB channels matching success colour */
-  --site-info: #0dcaf0; /* EDIT: information status colour */
-  --site-info-rgb: 13, 202, 240; /* EDIT: RGB channels matching information colour */
+  --site-success: #01CA96; /* EDIT: success/confirmation status colour */
+  --site-success-rgb: 1, 202, 150; /* EDIT: RGB channels matching success colour */
+  --site-info: #669BF0; /* EDIT: information status colour */
+  --site-info-rgb: 102, 155, 240; /* EDIT: RGB channels matching information colour */
   --site-warning: #ffc107; /* EDIT: caution/warning status colour; check text contrast */
   --site-warning-rgb: 255, 193, 7; /* EDIT: RGB channels matching warning colour */
   --site-danger: #dc3545; /* EDIT: error/destructive-action status colour */
   --site-danger-rgb: 220, 53, 69; /* EDIT: RGB channels matching danger colour */
 
   /* Backgrounds and text */
-  --site-body-bg: #dbb6b6; /* EDIT: overall page background */
-  --site-surface: #ffffff; /* EDIT: cards, forms, modals and accordion backgrounds */
-  --site-surface-muted: #f8fafc; /* EDIT: shaded sections, card headers, dropdown hover and footer */
+  --site-body-bg: #E9F0EB; /* EDIT: overall page background */
+  --site-surface: #a69386a8; /* EDIT: cards, forms, modals and accordion backgrounds */
+  --site-surface-muted: #9C6D2D; /* EDIT: shaded sections, card headers, dropdown hover and footer */
   --site-text: #212529; /* EDIT: default paragraph/body and table text */
   --site-text-muted: #64748b; /* EDIT: subdued labels, footer text and .text-muted */
-  --site-heading: #111827; /* EDIT: all heading text (h1â€“h6), navbar brand */
-  --site-border: #dee2e6; /* EDIT: cards, forms, tables and component borders */
-  --site-link: #e91c4c;; /* EDIT: regular hyperlinks; usually follows primary brand colour */
+  --site-heading: #234E74; /* EDIT: all heading text (h1â€“h6), navbar brand */
+  --site-border: #A69386; /* EDIT: cards, forms, tables and component borders */
+  --site-link: #FCAD0F;; /* EDIT: regular hyperlinks; usually follows primary brand colour */
   --site-link-hover: #451ccc;; /* EDIT: hyperlinks on mouse hover */
 
   /* Fonts and sizing */
-  --site-font: "Courier Prime", arial, monospace; /* EDIT: body text font stack, form and Bootstrap body font */ 
-  --site-heading-font: "Courier New", Courier, monospace; /* EDIT: font for headings h1â€“h6 */
+  --site-font: "Maitree", ; /* EDIT: body text font stack, form and Bootstrap body font */ 
+  --site-heading-font: "Actor"; /* EDIT: font for headings h1â€“h6 */
   --site-base-size: 1rem; /* EDIT: body text size; rem-based sizes depend on root font size */
   --site-line-height: 1.6; /* EDIT: body paragraph line spacing */
-  --site-h1-size: clamp(2rem, 4vw, 3rem); /* EDIT: H1 heading size, responsive via clamp() */
+  --site-h1-size: clamp(3rem, 5vw, 4rem); /* EDIT: H1 heading size, responsive via clamp() */
   --site-h2-size: clamp(1.75rem, 3vw, 2.5rem); /* EDIT: H2 heading size, responsive via clamp() */
   --site-h3-size: clamp(1.4rem, 2.5vw, 2rem); /* EDIT: H3 heading size, responsive via clamp() */
   --site-h4-size: 1.5rem; /* EDIT: H4 heading size */
@@ -86,7 +86,7 @@ mystyle_bootstrap.css â€” Bootstrap 5.3 Website Theme Overrides
   --bs-danger: var(--site-danger);
   --bs-danger-rgb: var(--site-danger-rgb);
   --bs-body-bg: var(--site-body-bg);
-  --bs-body-bg-rgb: 255, 255, 255; /* EDIT HERE: RGB values MUST match --site-body-bg for Bootstrap opacity utilities */
+  --bs-body-bg-rgb: 233, 240, 235; /* EDIT HERE: RGB values MUST match --site-body-bg for Bootstrap opacity utilities done!*/
   --bs-body-color: var(--site-text);
   --bs-border-color: var(--site-border);
   --bs-border-radius: var(--site-radius);
@@ -117,6 +117,13 @@ body {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: var(--site-heading-font);
+  font-weight: var(--site-heading-weight);
+  color: var(--site-heading);
+  line-height: 1.2;
+}
+h1,
+.h1 {
+  font-family: "Averia Serif Libre";
   font-weight: var(--site-heading-weight);
   color: var(--site-heading);
   line-height: 1.2;
