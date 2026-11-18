@@ -378,3 +378,8 @@ button:focus-visible,
     animation-iteration-count: 1 !important;
   }
 }
+.thumbnail-image {
+  width: 150px;
+  height: 200px;
+  object-fit: cover;
+}
