@@ -3,14 +3,14 @@ class specialheader extends HTMLElement {
     this.innerHTML = `
     <nav class="navbar navbar-expand-lg bg-light">
   <div class="container-fluid">
-    <a class="navbar-brand" href="../index.html">Marmi</a>
+    <a class="navbar-brand" href="../Class Exercises/About.html">Marmi</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+          <a class="nav-link disabled" aria-current="page" href="../index.html">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="../Class Exercises/Blog.html">Blog</a>
@@ -23,11 +23,10 @@ class specialheader extends HTMLElement {
            <li><a class="dropdown-item" href="../Class Exercises/About.html">About</a></li>
            <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="../Class Exercises/CV.html">CV</a></li>
-            <li><a class="dropdown-item" href="#">Projects</a></li>
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled">Disabled</a>
+          <a class="nav-link" href="../Class Exercises/Projects.html">Projects</a>
         </li>
       </ul>
       <form class="d-flex" role="search">
