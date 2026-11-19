@@ -20,7 +20,7 @@ class specialheader extends HTMLElement {
             About
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="../Class Exercises/CV.html">CV</a></li>
+            <li><a class="dropdown-item" href="../CV.html">CV</a></li>
             <li><a class="dropdown-item" href="#">Projects</a></li>
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="#">Something else here</a></li>
