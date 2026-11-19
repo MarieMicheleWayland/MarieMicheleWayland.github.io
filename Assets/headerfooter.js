@@ -13,14 +13,14 @@ class specialheader extends HTMLElement {
           <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="Blog.html">Blog</a>
+          <a class="nav-link" href="../Class Exercises/Blog.html">Blog</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="About.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link dropdown-toggle" href="../Class Exercises/About.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             About
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="Class Exercises/CV.html">CV</a></li>
+            <li><a class="dropdown-item" href="../Class Exercises/CV.html">CV</a></li>
             <li><a class="dropdown-item" href="#">Projects</a></li>
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="#">Something else here</a></li>
