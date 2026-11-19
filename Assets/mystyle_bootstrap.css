@@ -40,12 +40,12 @@ mystyle_bootstrap.css â€” Bootstrap 5.3 Website Theme Overrides
 
   /* Backgrounds and text */
   --site-body-bg: #E9F0EB; /* EDIT: overall page background */
-  --site-surface: #a69386a8; /* EDIT: cards, forms, modals and accordion backgrounds */
-  --site-surface-muted: #9C6D2D; /* EDIT: shaded sections, card headers, dropdown hover and footer */
+  --site-surface: #a6938678; /* EDIT: cards, forms, modals and accordion backgrounds */
+  --site-surface-muted: #9c6e2d9f; /* EDIT: shaded sections, card headers, dropdown hover and footer i put this as paler*/
   --site-text: #212529; /* EDIT: default paragraph/body and table text */
   --site-text-muted: #64748b; /* EDIT: subdued labels, footer text and .text-muted */
   --site-heading: #234E74; /* EDIT: all heading text (h1â€“h6), navbar brand */
-  --site-border: #A69386; /* EDIT: cards, forms, tables and component borders */
+  --site-border: #83766e; /* EDIT: cards, forms, tables and component borders */
   --site-link: #FCAD0F;; /* EDIT: regular hyperlinks; usually follows primary brand colour */
   --site-link-hover: #451ccc;; /* EDIT: hyperlinks on mouse hover */
 
@@ -301,11 +301,11 @@ button:focus-visible,
 /* Accordion panels: surfaces/borders and expanded/focus states; EDIT HERE (0.1): expanded panel tint opacity. */
 .accordion {
   --bs-accordion-bg: var(--site-surface);
-  --bs-accordion-border-color: var(--site-border);
+  --bs-accordion-border-color: rgba(35, 78, 116, 0.25);
   --bs-accordion-border-radius: var(--site-radius);
   --bs-accordion-btn-focus-border-color: var(--site-primary);
   --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem var(--site-focus-ring);
-  --bs-accordion-active-bg: rgba(var(--site-primary-rgb), 0.1);
+  --bs-accordion-active-bg: rgba(var(--site-primary-rgb), 0.05);
   --bs-accordion-active-color: var(--site-primary-hover);
 }
 /* Modal dialog surface, border and large corner radius. */
